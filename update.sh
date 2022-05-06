@@ -23,12 +23,8 @@ fi
 
 WP_OUTPUT_FILENAME+=".$WP_OUTPUT_FILETYPE"
 
-
-echo $WP_SOURCE
-echo $WP_OUTPUT_FILENAME
 WP_LATEST="${WP_WORKING_DIR}/${WP_OUTPUT_FILENAME}"
 
-echo $WP_LATEST
 wget -O $WP_OUTPUT_FILENAME $WP_SOURCE
 
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'"$WP_LATEST"\"
