@@ -4,6 +4,9 @@ get a new wallpaper from source with a single action
 
 uses the [Official Unsplash API](https://source.unsplash.com), without them and the work they do this would not be possible so please refrain from spamming their APIs too much.
 
+![example video](https://github.com/OPVL/sourcepaper/blob/main/images/example.gif)
+
+
 ## pre-requisites
 
 * macOS X+
